@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Tiêu Anh Minh]
+ * MSSV:      [PS48358]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
 // BÀI 4: XÂY DỰNG CHƯƠNG TRÌNH TÍNH ĐIỂM TRUNG BÌNH 
@@ -13,6 +13,17 @@
 #include <stdio.h>
 
 int main(){
+         int toan,li,hoa;
+    int trungbinh;
+    printf ("nhap diem toan: ");
+    scanf ("%d", &toan);
+    printf ("nhap diem li: ");
+    scanf ("%d", &li);
+        printf ("nhap diem hoa: ");
+    scanf ("%d", &hoa);
+    trungbinh = (toan*3 + li * 2 + hoa)/ 6 ;
+    printf ("diem trung binh la: %d\n", trungbinh);
+    return(0);
     // Khai báo biến
 
     // Nhập dữ liệu

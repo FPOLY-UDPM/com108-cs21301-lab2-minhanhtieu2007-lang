@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [Tiêu Anh Minh]
+ * MSSV:      [PS48358]
+ * Lớp:       [CS21301]
  *****************************************************************************/
 
  // BÀI 2: XÂY DỰNG CHƯƠNG TRÌNH TÍNH CHU VI DIỆN TÍCH HCN 
@@ -11,6 +11,17 @@
 #include <stdio.h>
 
 int main(){
+     int dai,rong ;
+    int chuvi, dientich;
+    printf ("nhap dai: ");
+    scanf ("%d", &dai);
+    printf ("nhap rong: ");
+    scanf ("%d", &rong);
+    chuvi = (dai + rong)* 2 ;
+    dientich = dai * rong ;
+    printf ("Diện tích là: %d\n", dientich);
+    printf ("Chu vi là: %d\n", chuvi);
+    return(0);
     // Khai báo biến
 
     // Nhập dữ liệu
